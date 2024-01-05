@@ -1,0 +1,16 @@
+:root {
+  /* Colors */
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+
+  /* Fonts */
+  --font-robot: "Roboto";
+}
+
+/*
+  This is variable css , which will make it easier to keep a constant css to the whole website 
+  and we can also re-adjust it from here if later we need to from here only.
+*/

@@ -51,7 +51,7 @@
 }
 
 .heroImg {
-  width: 70%;
+  width: 50%;
   z-index: 1;
 
   animation-name: floating;
@@ -62,13 +62,13 @@
 
 @keyframes floating {
   0% {
-    transform: translate(0, 0px);
+    transform: translate(0, 0);
   }
   50% {
     transform: translate(0, 10px);
   }
   100% {
-    transform: translate(0, -0px);
+    transform: translate(0, 0);
   }
 }
 

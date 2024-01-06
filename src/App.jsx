@@ -1,5 +1,7 @@
 import styles from "./App.module.css";
-import Hero from "./components/Hero/hero";
+import Hero from "./components/hero/hero";
+import About from "./components/education-section/education-section";
+import Education from "./components/education/education";
 import Navbar from "./components/nav-bar/nav-bar";
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
     <div className={styles.App}>
       <Navbar />
       <Hero />
+      <Education />
     </div>
   );
 }

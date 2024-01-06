@@ -30,7 +30,7 @@ const Education = () => {
   };
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="education">
       <h2 className={styles.title}>Education</h2>
       <div
         className={styles.content}
@@ -45,7 +45,7 @@ const Education = () => {
           src={isClicked ? Img3 : isHovered ? Img2 : Img1}
           alt="hero_image"
         />
-        <p className={styles.clickMeText}>Click me</p>
+
         <EducationSection />
       </div>
     </section>

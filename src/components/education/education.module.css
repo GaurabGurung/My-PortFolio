@@ -7,8 +7,7 @@
   padding: 73px;
   margin-top: 129px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 10% 10%;
 }
 
 .title {
@@ -17,6 +16,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 .content {
   display: flex;
@@ -27,6 +27,7 @@
 .heroImg {
   width: 30%;
   cursor: pointer;
+  margin: 25px 60px;
 }
 
 @media screen and (max-width: 830px) {

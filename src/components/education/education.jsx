@@ -31,7 +31,7 @@ const Education = () => {
 
   return (
     <section className={styles.container} id="education">
-      <h2 className={styles.title}>Education</h2>
+      <h2 className={styles.title}>Educational Background</h2>
       <div
         className={styles.content}
         onMouseEnter={handleMouseEnter}

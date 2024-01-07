@@ -1,0 +1,56 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "../../src/assets/skills_icon/HTML_Icon.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "../../src/assets/skills_icon/CSS.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "../../src/assets/skills_icon/reactIcon.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "../../src/assets/skills_icon/JavaScript-logo.png"
+  },
+
+  {
+    "title": "RESTful APIs",
+    "imageSrc": "./../src/assets/skills_icon/restAPI.png"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "../../src/assets/skills_icon/firebase.png"
+  },
+  {
+    "title": "SASS",
+    "imageSrc": "../../src/assets/skills_icon/sass.png"
+  },
+
+  {
+    "title": "TypeScript",
+    "imageSrc": "../../src/assets/skills_icon/typescript.png"
+  },
+  {
+    "title": "Redux",
+    "imageSrc": "../../src/assets/skills_icon/redux.png"
+  },
+  {
+    "title": "Responsive Websites",
+    "imageSrc": "../../src/assets/skills_icon/responsive.png"
+  },
+  {
+    "title": "VS Code",
+    "imageSrc": "../../src/assets/skills_icon/vscode.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "../../src/assets/skills_icon/gitIcon.png"
+  },
+  {
+    "title": "Github",
+    "imageSrc": "../../src/assets/skills_icon/github.png"
+  }
+]

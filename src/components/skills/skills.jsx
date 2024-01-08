@@ -6,7 +6,7 @@ import CurrentJob from "../current-job/current-job";
 export const Skills = () => {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Skills & Tools</h2>
+      <h2 className={styles.title}>My Skills Are </h2>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {

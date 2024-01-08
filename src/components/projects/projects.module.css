@@ -1,0 +1,39 @@
+@import "../../vars.css";
+
+.container {
+  color: black;
+  margin: 5% 5%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 1.75px;
+  text-align: center;
+}
+
+.project_container {
+  margin: 10%;
+}
+
+.work_link {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.projImg {
+  filter: grayscale(1);
+  width: 500px;
+  transition: filter 0.5s, transform 0.5s;
+}
+
+.work_link:hover .projImg {
+  transform: scale(1.1);
+  filter: none;
+}

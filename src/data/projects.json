@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Online Clothing Store",
+    "imageSrc": "../../src/assets/projects/clothing-store.png",
+    "description": "This is a project made to learn the latest ",
+    "skills": ["React", "JavaScript", "Redux"],
+    "demo": "https://max-online-shop.netlify.app/",
+    "source": "https://github.com/GaurabGurung/adding-TS-in-our-Clothing-app-which-uses-Redux-Stripe-and-netlify-functions"
+  },
+  {
+    "title": "Monster Rolodex",
+    "imageSrc": "../../src/assets/projects/monsters.png",
+    "description": "This is a project made to learn the latest ",
+    "skills": ["React", "JavaScript", "Redux"],
+    "demo": "https://max-online-shop.netlify.app/",
+    "source": "https://github.com/GaurabGurung/monster-app-Functional-component"
+  },
+  {
+    "title": "WeatherApp",
+    "imageSrc": "../../src/assets/projects/weatherApp.png",
+    "description": "This is a project made to learn the weather API ",
+    "skills": ["JavaScript", "scss"],
+    "demo": "https://max-online-shop.netlify.app/",
+    "source": "https://github.com/GaurabGurung/Weather-App"
+  }
+]

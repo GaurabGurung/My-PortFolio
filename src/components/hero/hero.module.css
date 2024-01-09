@@ -34,8 +34,8 @@
 }
 
 .description {
-  font-size: 30px;
-  font-family: var(--font-roboto);
+  font-size: 20px;
+  letter-spacing: 2px;
   margin-bottom: 52px;
 }
 

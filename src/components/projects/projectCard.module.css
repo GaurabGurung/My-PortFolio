@@ -9,6 +9,11 @@
   padding: 18px 24px;
   max-width: 400px;
 }
+.imageLink {
+  overflow: hidden;
+
+  z-index: 2;
+}
 .image {
   width: 350px;
   height: 280px;
@@ -20,6 +25,8 @@
   margin-left: 0;
   cursor: pointer;
   filter: grayscale(1);
+}
+.arrowIcon {
 }
 
 .image:hover {
@@ -70,4 +77,10 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+}
+.link:hover {
+  background: var(--color-dark);
+  color: white;
+  cursor: pointer;
+  border-color: white;
 }

@@ -6,7 +6,9 @@
   flex-direction: column;
   gap: 50px;
   margin-bottom: 10%;
+  color: black;
 }
+
 .aboutItem {
   display: flex;
   flex-direction: row;
@@ -14,15 +16,13 @@
   border-radius: 20px;
   list-style: none;
   padding: 25px;
-  background: linear-gradient(
-    90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: var(--color-primary);
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: 0.4s;
   cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
 .aboutItem:hover {

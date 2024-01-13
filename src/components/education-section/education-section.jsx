@@ -27,7 +27,7 @@ const EducationSection = () => {
             alt="Profeesion_year_icon"
             className={styles.pyIcon}
           />
-          <div className={styles.itemItext}>
+          <div className={styles.itemText}>
             <h3>IT Professional Year</h3>
             <p>Performance Education, Melbourne City</p>
           </div>

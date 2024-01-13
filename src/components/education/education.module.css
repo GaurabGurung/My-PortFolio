@@ -1,29 +1,64 @@
 @import "../../vars.css";
 
-.container {
+/* .container {
+  position: relative;
   height: 100vh;
   margin-top: 0;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
   justify-content: center;
+  margin-top: 0px;
+} */
+.container {
+  height: 100vh;
 }
+.sectionCotainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10%;
+}
+
 .section {
-  background-color: #b7410e;
+  /* box-shadow: 0px 10px 20px rgba(214, 204, 204, 0.5); */
+  width: 50%;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 3;
+}
+
+/* .section {
+  box-shadow: 0px 10px 20px rgba(214, 204, 204, 0.5);
   border-radius: 15px;
   z-index: 1;
-  width: 1211px;
-  height: 693px;
-  padding-left: 73px;
-  padding-top: 55px;
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  z-index: 2;
+  margin-top: 10%;
+} */
+
+.block {
+  position: absolute;
+  background: #f7bea9;
+  height: 50vh;
+  width: 100vw;
+  z-index: 1;
+  top: 1300px;
 }
 
 .title {
-  color: var(--color-text);
+  color: black;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
-  text-transform: uppercase;
   margin-bottom: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 .content {
   display: flex;
@@ -35,6 +70,10 @@
   width: 30%;
   cursor: pointer;
   margin: 25px 60px;
+  position: absolute;
+  z-index: 2;
+  left: 5vw;
+  top: 120vh;
 }
 
 @media screen and (max-width: 830px) {
@@ -48,5 +87,13 @@
   }
   .heroImg {
     display: none;
+  }
+  .section {
+    width: 80%;
+  }
+  .sectionCotainer {
+    justify-content: center;
+    margin-right: 0;
+    padding-right: 10px;
   }
 }

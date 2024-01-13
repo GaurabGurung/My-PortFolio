@@ -31,25 +31,29 @@ const Education = () => {
 
   return (
     <div className={styles.container} id="education">
-      <section className={styles.section}>
-        <h2 className={styles.title}>Education</h2>
-        <div
-          className={styles.content}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-          onMouseDown={handleClick}
-          onMouseUp={handleClickRelease}
-          onMouseOut={handleClickRelease}
-        >
-          <img
-            className={styles.heroImg}
-            src={isClicked ? Img3 : isHovered ? Img2 : Img1}
-            alt="hero_image"
-          />
-
-          <EducationSection />
-        </div>
-      </section>
+      <img
+        className={styles.heroImg}
+        src={isClicked ? Img3 : isHovered ? Img2 : Img1}
+        alt="hero_image"
+      />
+      <h2 className={styles.title}>
+        My Educational <br /> Background
+      </h2>
+      <div className={styles.sectionCotainer}>
+        <section className={styles.section}>
+          <div
+            className={styles.content}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            onMouseDown={handleClick}
+            onMouseUp={handleClickRelease}
+            onMouseOut={handleClickRelease}
+          >
+            <EducationSection />
+          </div>
+        </section>
+      </div>
+      <div className={styles.block} />
     </div>
   );
 };

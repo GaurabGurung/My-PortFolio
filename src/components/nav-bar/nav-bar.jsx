@@ -40,7 +40,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/contact" className={styles.containerBtn}>
-              Contact
+              Contact Me
             </Link>
           </li>
         </ul>
@@ -52,7 +52,7 @@ const Navbar = () => {
     <>
       <nav className={styles.navbar}>
         <Link className={styles.title} to="/">
-          Portfolio
+          Gaurab Gurung
         </Link>
         {renderLinks()}
       </nav>

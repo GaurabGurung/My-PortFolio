@@ -18,8 +18,8 @@ export const Hero = () => {
         </a>
       </div>
       <img src={HeroImg} alt="Hero image" className={styles.heroImg} />
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
+      <div className={styles.shawdow} />
+      <div className={styles.sideColor} />
     </section>
   );
 };

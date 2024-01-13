@@ -5,16 +5,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
-  z-index: 2;
-  margin: 0 10%;
+  padding: 0px 5% 13px 3%;
+  z-index: 5;
+  background-color: #008080;
 }
 
 .title {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  margin-right: 90px;
+  margin-top: 10px;
 }
 
 .menu {
@@ -23,14 +25,18 @@
 
 .menuItems {
   display: flex;
-  gap: 47px;
+  gap: 35px;
   list-style: none;
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 20px;
   color: var(--color-text);
   text-decoration: none;
+}
+
+.menuBtn {
+  display: none;
 }
 
 /* Media Queries: makes the page responsive, by give different styles to the classes based on the width of the page*/
@@ -81,18 +87,16 @@
 
 .containerBtn {
   text-decoration: none;
-  background-color: var(--color-primary);
+  background-color: #bc582c;
   color: var(--color-text);
   font-size: 30px;
   font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  border: 2px solid var(--color-primary);
+  padding: 7px 26px;
+  white-space: nowrap;
 }
 
 .containerBtn:hover {
-  background: var(--color-dark);
+  background: #f05812;
   cursor: pointer;
-  border: 2px solid var(--color-dark);
-  box-shadow: 0px 4px 8px var(--color-primary);
+  box-shadow: 0px 4px 8px #421502;
 }

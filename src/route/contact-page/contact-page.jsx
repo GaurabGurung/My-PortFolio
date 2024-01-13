@@ -19,7 +19,7 @@ const ContactPage = () => {
                 placeholder="Write your first name"
                 className={`${styles.contact__input}`}
               />
-              <label htmlFor="name" className={`${styles.contact__label}`}>
+              <label for="name" className={`${styles.contact__label}`}>
                 First Name
               </label>
             </div>
@@ -33,7 +33,7 @@ const ContactPage = () => {
                 placeholder="Write you email address"
                 className={`${styles.contact__input}`}
               />
-              <label htmlFor="email" className={`${styles.contact__label}`}>
+              <label for="email" className={`${styles.contact__label}`}>
                 Email Address
               </label>
             </div>
@@ -44,8 +44,9 @@ const ContactPage = () => {
                 id="message"
                 required
                 placeholder="Write your message"
+                className={styles.contact__input}
               ></textarea>
-              <label htmlFor="message" className={`${styles.contact__label}`}>
+              <label for="message" className={`${styles.contact__label}`}>
                 Message
               </label>
             </div>

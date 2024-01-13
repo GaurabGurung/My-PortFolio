@@ -1,13 +1,20 @@
 @import "../../vars.css";
 
 .container {
-  position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
+  height: 100vh;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  background-color: #b7410e;
   border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
   z-index: 1;
-  margin: 10% 10%;
+  width: 1211px;
+  height: 693px;
+  padding-left: 73px;
+  padding-top: 55px;
 }
 
 .title {

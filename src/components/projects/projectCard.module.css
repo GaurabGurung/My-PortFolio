@@ -80,7 +80,6 @@
 }
 .link:hover {
   background: var(--color-dark);
-  color: white;
   cursor: pointer;
-  border-color: white;
+  box-shadow: 0px 4px 8px var(--color-primary);
 }

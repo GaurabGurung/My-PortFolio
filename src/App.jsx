@@ -1,20 +1,18 @@
 import styles from "./App.module.css";
-import Hero from "./components/hero/hero";
-import Education from "./components/education/education";
+import { Routes, Route } from "react-router-dom";
+import ContactPage from "./route/contact-page/contact-page";
+import Home from "./route/homePage/homePage";
 import Navbar from "./components/nav-bar/nav-bar";
-import Skills from "./components/skills/skills";
-import Projects from "./components/projects/projects";
-import Contact from "./components/contact/contact";
 
 function App() {
   return (
     <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <Education />
-      <Skills />
-      <Projects />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Navbar />}>
+          <Route index path="/" element={<Home />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Route>
+      </Routes>
     </div>
   );
 }

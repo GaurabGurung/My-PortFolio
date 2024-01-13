@@ -5,7 +5,7 @@ const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container} id="#contact">
       <a href={demo} target="_blank" className={styles.imageLink}>
         <img
           src={imageSrc}
@@ -33,7 +33,7 @@ const ProjectCard = ({
           Source
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

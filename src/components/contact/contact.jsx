@@ -27,23 +27,43 @@ const Contact = () => {
       );
   };
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="contact">
       <h1>Contact</h1>
       <form ref={form} onSubmit={sendEmail} className={styles.formContainer}>
         <div className={styles.name_section}>
           <div className={styles.firstName}>
             <label className={styles.text}>First Name</label>
-            <input type="text" name="first_name" />
+            <input
+              type="text"
+              name="first_name"
+              required
+              placeholder="First name"
+            />
           </div>
           <div className={styles.lastName}>
             <label className={styles.text}>Last Name</label>
-            <input type="text" name="last_name" />
+            <input
+              type="text"
+              name="last_name"
+              required
+              placeholder="Last name"
+            />
           </div>
         </div>
         <label className={styles.text}>Email</label>
-        <input type="email" name="user_email" />
+        <input
+          type="email"
+          name="user_email"
+          required
+          placeholder="Email Address"
+        />
         <label className={styles.text}>Message</label>
-        <textarea name="message" className={styles.message} />
+        <textarea
+          name="message"
+          className={styles.message}
+          required
+          placeholder="Type your message"
+        />
         <input
           type="submit"
           value="Send"

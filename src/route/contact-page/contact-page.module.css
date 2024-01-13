@@ -1,0 +1,45 @@
+.section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact__container {
+  padding-bottom: 4rem;
+}
+
+.contact__page {
+  padding-block: 1 rem 4rem;
+}
+
+.contact__form {
+  position: relative;
+  width: 100%;
+  height: 58px;
+}
+
+.contact__input {
+  width: 100%;
+  height: 100%;
+  border: 3px solid gray;
+  padding: 0.5rem 1.5rem;
+  transition: border-color 0.4s, background-color 0.4s;
+}
+
+.contact__input:focus {
+  border-color: black;
+}
+
+.contact__input:-webkit-autofill {
+  transition: background-color 6000s, color 6000s;
+}
+
+.contact__label {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+}
+.button {
+  width: 100%;
+}

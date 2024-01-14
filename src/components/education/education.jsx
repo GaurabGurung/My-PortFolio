@@ -40,7 +40,7 @@ const Education = () => {
         alt="hero_image"
       />
       <h2 className={styles.title}>
-        My Educational <br /> Background
+        My Education <br /> Background
       </h2>
       <div
         className={styles.sectionCotainer}

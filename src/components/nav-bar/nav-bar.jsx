@@ -30,10 +30,10 @@ const Navbar = () => {
         />
         <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
           <li>
-            <a href="/#education">Education</a>
+            <a href="/#education">My Education</a>
           </li>
           <li>
-            <a href="/#experience">Experience</a>
+            <a href="/#experience">My Skills</a>
           </li>
           <li>
             <a href="/#projects">Projects</a>
@@ -51,9 +51,9 @@ const Navbar = () => {
   return (
     <>
       <nav className={styles.navbar}>
-        <Link className={styles.title} to="/">
+        <a className={styles.title} href="/">
           Gaurab Gurung
-        </Link>
+        </a>
         {renderLinks()}
       </nav>
       <Outlet />

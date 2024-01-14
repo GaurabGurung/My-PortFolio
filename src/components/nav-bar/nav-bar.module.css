@@ -5,10 +5,11 @@
   display: flex;
   width: 100vw;
   padding: 0px 5% 13px 3%;
-  z-index: 5;
-  background-color: var(--color-primary);
+  z-index: 10;
+  background-color: var(--color-dark);
   flex-direction: row;
   justify-content: space-between;
+  width: 100vw;
 }
 .title {
   font-size: 20px;
@@ -67,12 +68,8 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 25, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    background: var(--color-dark);
+    background: linear-gradient(0deg, #d9d5dd 0%, var(--color-dark) 100%);
     /* We have defined two background color because this would create a fallback solid color in case the linear gradient is not supported or fails to load. */
 
     padding: 24px 33px;

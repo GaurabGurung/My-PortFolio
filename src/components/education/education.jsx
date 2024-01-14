@@ -3,6 +3,7 @@ import styles from "../education/education.module.css";
 import Img1 from "../../assets/hero/Img1.png";
 import Img2 from "../../assets/hero/Img2.png";
 import Img3 from "../../assets/hero/Img3.png";
+import lignts from "../../assets/hero/light3.png";
 import EducationSection from "../education-section/education-section";
 
 const Education = () => {
@@ -31,6 +32,8 @@ const Education = () => {
 
   return (
     <div className={styles.container} id="education">
+      <div className={styles.block} />
+      <img src={lignts} className={styles.lights} />
       <img
         className={styles.heroImg}
         src={isClicked ? Img3 : isHovered ? Img2 : Img1}
@@ -39,21 +42,20 @@ const Education = () => {
       <h2 className={styles.title}>
         My Educational <br /> Background
       </h2>
-      <div className={styles.sectionCotainer}>
+      <div
+        className={styles.sectionCotainer}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        onMouseDown={handleClick}
+        onMouseUp={handleClickRelease}
+        onMouseOut={handleClickRelease}
+      >
         <section className={styles.section}>
-          <div
-            className={styles.content}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            onMouseDown={handleClick}
-            onMouseUp={handleClickRelease}
-            onMouseOut={handleClickRelease}
-          >
+          <div className={styles.content}>
             <EducationSection />
           </div>
         </section>
       </div>
-      <div className={styles.block} />
     </div>
   );
 };

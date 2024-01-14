@@ -1,18 +1,12 @@
-@import "../../vars.css";
-
-/* .container {
-  position: relative;
-  height: 100vh;
-  margin-top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  margin-top: 0px;
-} */
 .container {
   height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  background-color: var(--color-bg);
 }
+
 .sectionCotainer {
   display: flex;
   flex-direction: row;
@@ -21,34 +15,26 @@
 }
 
 .section {
-  /* box-shadow: 0px 10px 20px rgba(214, 204, 204, 0.5); */
-  width: 50%;
+  width: 55%;
   padding-top: 2%;
+  padding-right: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: absolute;
   z-index: 3;
+  /* background-color: white; */
 }
-
-/* .section {
-  box-shadow: 0px 10px 20px rgba(214, 204, 204, 0.5);
-  border-radius: 15px;
-  z-index: 1;
-  width: 600px;
-  height: 600px;
-  background-color: white;
-  z-index: 2;
-  margin-top: 10%;
-} */
 
 .block {
   position: absolute;
-  background: #f7bea9;
-  height: 50vh;
-  width: 100vw;
-  z-index: 1;
-  top: 1300px;
+  background: #008080;
+  height: 100vh;
+  width: 500vw;
+  z-index: 1; /* Change z-index */
+  top: 1050px;
+  left: -200px;
+  transform: rotate(10deg);
 }
 
 .title {
@@ -58,8 +44,9 @@
   letter-spacing: 1.75px;
   margin-bottom: 30px;
   text-align: center;
-  margin-top: 30px;
+  padding-top: 100px;
 }
+
 .content {
   display: flex;
   flex-direction: row;
@@ -71,9 +58,16 @@
   cursor: pointer;
   margin: 25px 60px;
   position: absolute;
-  z-index: 2;
+  z-index: 2; /* Change z-index */
   left: 5vw;
-  top: 120vh;
+  top: 25vh;
+}
+
+.lights {
+  position: absolute;
+  z-index: 4; /* Adjust z-index */
+  width: 40vw;
+  padding-left: 10%;
 }
 
 @media screen and (max-width: 830px) {
@@ -95,5 +89,21 @@
     justify-content: center;
     margin-right: 0;
     padding-right: 10px;
+  }
+  .lights {
+    display: none;
+  }
+}
+@media screen and (min-width: 2150px) {
+  .block {
+    top: 1400px;
+    left: -250px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .block {
+    top: 500px;
+    left: -500px;
+    transform: rotate(0deg);
   }
 }

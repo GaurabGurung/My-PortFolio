@@ -1,15 +1,55 @@
 import styles from "./contact-page.module.css";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactPage = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    const contactMessage = document.getElementById("contact-message");
+    const formField = document.getElementById("contact-form");
+
+    emailjs
+      .sendForm(
+        "service_ubmc9wa",
+        "template_up4ynkv",
+        form.current,
+        "zo_pmvuRXTqPy00-p"
+      )
+      .then(
+        () => {
+          contactMessage.textContent = "Message sent succesfully ✅";
+          setTimeout(() => {
+            contactMessage.textContent = "";
+          }, 5000);
+          formField.reset();
+        },
+        (error) => {
+          contactMessage.textContent = "Message not sent (service error) ❌";
+          setTimeout(() => {
+            contactMessage.textContent = "";
+          }, 5000);
+          formField.reset();
+        }
+      );
+  };
   return (
     <section className={`${styles.contact} ${styles.section}`}>
-      <h2 className={`${styles.section_title}`}>Let's Talk</h2>
+      <h2 className={`${styles.section_title}`}>
+        Let's Talk <br /> for an Interview
+      </h2>
 
-      <div
-        className={`${styles.contact__page}${styles.container} ${styles.grid}`}
-      >
-        <form action="" className={`${styles.contact__form} ${styles.grid}`}>
-          <div className={`${styles.contact__group} ${styles.grid}`}>
+      <div className={`${styles.contact__page}${styles.container}`}>
+        <form
+          id="contact-form"
+          action=""
+          className={`${styles.contact__form}`}
+          ref={form}
+          onSubmit={sendEmail}
+        >
+          <div className={`${styles.contact__group}`}>
             <div className={`${styles.contact__box}`}>
               <input
                 type="text"
@@ -19,7 +59,7 @@ const ContactPage = () => {
                 placeholder="Write your first name"
                 className={`${styles.contact__input}`}
               />
-              <label for="name" className={`${styles.contact__label}`}>
+              <label htmlFor="name" className={`${styles.contact__label}`}>
                 First Name
               </label>
             </div>
@@ -33,34 +73,28 @@ const ContactPage = () => {
                 placeholder="Write you email address"
                 className={`${styles.contact__input}`}
               />
-              <label for="email" className={`${styles.contact__label}`}>
+              <label htmlFor="email" className={`${styles.contact__label}`}>
                 Email Address
               </label>
             </div>
 
             <div className={`${styles.contact__box} ${styles.contact__area}`}>
               <textarea
-                name="user_message"
-                id="message"
+                name="message"
                 required
-                placeholder="Write your message"
+                placeholder="Type your message"
                 className={styles.contact__input}
-              ></textarea>
-              <label for="message" className={`${styles.contact__label}`}>
-                Message
-              </label>
+              />
+              <label className={`${styles.contact__label}`}>Message</label>
             </div>
-
-            <p className={styles.contact__message} id="contact-message">
-              Message
-            </p>
-            <button
+            <input
               type="submit"
+              value="Send Message"
               className={`${styles.contact__send} ${styles.button}`}
-            >
-              Send Message
-            </button>
+              placeholder="Type your message"
+            />
           </div>
+          <p className={styles.contact__message} id="contact-message"></p>
         </form>
       </div>
     </section>

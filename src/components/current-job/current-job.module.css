@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .history {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -9,6 +9,8 @@
   margin-bottom: 30px;
   font-family: var(--font-roboto);
   position: relative;
+  z-index: 2;
+  width: 100vw;
 }
 
 h3 {
@@ -59,4 +61,14 @@ ul {
 }
 .historyItem:hover {
   transform: scale(1.2); /* Increase the size on hover */
+}
+
+.block {
+  position: absolute;
+  background: #008080;
+  height: 65vh;
+  width: 100vw;
+  z-index: 1;
+  top: 140px;
+  z-index: 0;
 }

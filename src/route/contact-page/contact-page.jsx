@@ -37,69 +37,72 @@ const ContactPage = () => {
       );
   };
   return (
-    <div className={styles.wrapper}>
-      <section className={`${styles.contact} ${styles.section}`}>
-        <h2 className={`${styles.section_title}`}>
-          Let's Talk <br /> for an Interview
-        </h2>
+    <>
+      <div className={styles.container}>
+        <section className={`${styles.contact} ${styles.section}`}>
+          <h2 className={`${styles.section_title}`}>
+            Let's Talk <br /> for an Interview
+          </h2>
 
-        <div className={`${styles.contact__page}${styles.container}`}>
-          <form
-            id="contact-form"
-            action=""
-            className={`${styles.contact__form}`}
-            ref={form}
-            onSubmit={sendEmail}
-          >
-            <div className={`${styles.contact__group}`}>
-              <div className={`${styles.contact__box}`}>
-                <input
-                  type="text"
-                  name="user_name"
-                  id="name"
-                  required
-                  placeholder="Write your first name"
-                  className={`${styles.contact__input}`}
-                />
-                <label htmlFor="name" className={`${styles.contact__label}`}>
-                  First Name
-                </label>
-              </div>
+          <div className={`${styles.contact__page}`}>
+            <form
+              id="contact-form"
+              action=""
+              className={`${styles.contact__form}`}
+              ref={form}
+              onSubmit={sendEmail}
+            >
+              <div className={`${styles.contact__group}`}>
+                <div className={`${styles.contact__box}`}>
+                  <input
+                    type="text"
+                    name="user_name"
+                    id="name"
+                    required
+                    placeholder="Write your first name"
+                    className={`${styles.contact__input}`}
+                  />
+                  <label htmlFor="name" className={`${styles.contact__label}`}>
+                    First Name
+                  </label>
+                </div>
 
-              <div className={`${styles.contact__box} `}>
-                <input
-                  type="email"
-                  name="user_email"
-                  id="email"
-                  required
-                  placeholder="Write you email address"
-                  className={`${styles.contact__input}`}
-                />
-                <label htmlFor="email" className={`${styles.contact__label}`}>
-                  Email Address
-                </label>
+                <div className={`${styles.contact__box} `}>
+                  <input
+                    type="email"
+                    name="user_email"
+                    id="email"
+                    required
+                    placeholder="Write you email address"
+                    className={`${styles.contact__input}`}
+                  />
+                  <label htmlFor="email" className={`${styles.contact__label}`}>
+                    Email Address
+                  </label>
+                </div>
               </div>
-            </div>
-            <div className={`${styles.contact__box} ${styles.contact__area}`}>
-              <textarea
-                name="message"
-                required
+              <div className={`${styles.contact__box} ${styles.contact__area}`}>
+                <textarea
+                  name="message"
+                  required
+                  placeholder="Type your message"
+                  className={styles.contact__input}
+                />
+                <label className={`${styles.contact__label}`}>Message</label>
+              </div>
+              <input
+                type="submit"
+                value="Send Message"
+                className={`${styles.contact__send} ${styles.button}`}
                 placeholder="Type your message"
-                className={styles.contact__input}
               />
-              <label className={`${styles.contact__label}`}>Message</label>
-            </div>
-            <input
-              type="submit"
-              value="Send Message"
-              className={`${styles.contact__send} ${styles.button}`}
-              placeholder="Type your message"
-            />
-            <p className={styles.contact__message} id="contact-message"></p>
-          </form>
-        </div>
-      </section>
-    </div>
+              <p className={styles.contact__message} id="contact-message"></p>
+            </form>
+          </div>
+        </section>
+        <Footer />
+      </div>
+    </>
   );
 };
 

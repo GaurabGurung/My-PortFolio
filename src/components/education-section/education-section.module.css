@@ -17,7 +17,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-radius: 20px;
   list-style: none;
   padding: 25px;
   background: var(--color-dark);
@@ -67,10 +66,16 @@
 @media screen and (max-width: 830px) {
   .aboutItems {
     margin-top: 29px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

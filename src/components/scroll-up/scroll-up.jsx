@@ -3,7 +3,7 @@ import ArrowUp from "../../assets/nav/arrow-up.png";
 const ScrollUp = () => {
   return (
     <div>
-      <a href="">
+      <a href="" className={styles.arrow}>
         <img src={ArrowUp} alt="" />
       </a>
     </div>

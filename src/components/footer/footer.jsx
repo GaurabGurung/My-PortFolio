@@ -44,9 +44,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <span className={styles.footer__copy}>
-        &#169; Welcome To My Portfolio Website
-      </span>
+        <span className={styles.footer__copy}>
+          &#169; Welcome To My Portfolio Website
+        </span>
     </div>
   );
 };

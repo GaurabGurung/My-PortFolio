@@ -89,14 +89,14 @@ const ContactPage = () => {
                   className={styles.contact__input}
                 />
                 <label className={`${styles.contact__label}`}>Message</label>
+                <input
+                  type="submit"
+                  value="Send Message"
+                  className={`${styles.contact__send} ${styles.button}`}
+                  placeholder="Type your message"
+                />
+                <p className={styles.contact__message} id="contact-message"></p>
               </div>
-              <input
-                type="submit"
-                value="Send Message"
-                className={`${styles.contact__send} ${styles.button}`}
-                placeholder="Type your message"
-              />
-              <p className={styles.contact__message} id="contact-message"></p>
             </form>
           </div>
         </section>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={styles.wholePage}>
       <div className={styles.footer__container}>
-        <a href="/" className={styles.footer__logo}>
+        <a href="/#" className={styles.footer__logo}>
           Gaurab Gurung
         </a>
         <ul className={styles.footer__links}>
@@ -44,9 +44,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
-        <span className={styles.footer__copy}>
-          &#169; Welcome To My Portfolio Website
-        </span>
+      <span className={styles.footer__copy}>
+        &#169; Welcome To My Portfolio Website
+      </span>
     </div>
   );
 };

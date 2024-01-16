@@ -1,3 +1,5 @@
+// ScrollUp.jsx
+
 import React, { useEffect } from "react";
 import styles from "../scroll-up/scroll-up.module.css";
 import ArrowUp from "../../assets/nav/arrow-up.png";
@@ -19,10 +21,10 @@ const ScrollUp = () => {
     return () => {
       window.removeEventListener("scroll", scrollUp);
     };
-  }, []); // Adding an empty dependency array ensures the event listener is added only once on mount
+  }, []);
 
   return (
-    <div className={styles.arrow} id="arrow">
+    <div id="arrow" className={styles.arrow}>
       <a href="#">
         <img src={ArrowUp} alt="Scroll to Top" />
       </a>

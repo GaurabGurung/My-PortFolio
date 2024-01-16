@@ -1,3 +1,5 @@
+/* scroll-up.module.css */
+
 .arrow {
   position: fixed;
   right: 1rem;
@@ -7,7 +9,12 @@
   padding: 6px;
   transition: bottom 0.4s, transform 0.4s, background-color 0.4s;
 }
+
 .arrow:hover {
   transform: translateY(-0.5rem);
   box-shadow: 0 12px 24px rgb(45, 43, 43);
+}
+
+.show-scroll {
+  bottom: 3rem; /* Adjust as needed */
 }

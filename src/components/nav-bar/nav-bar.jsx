@@ -30,7 +30,7 @@ const Navbar = () => {
         />
         <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
           <li>
-            <a href="/#education">My Education</a>
+            <a href="/#qualification">My Qualification</a>
           </li>
           <li>
             <a href="/#experience">My Skills</a>

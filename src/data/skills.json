@@ -8,12 +8,17 @@
     "imageSrc": "../../src/assets/skills_icon/CSS.png"
   },
   {
-    "title": "React",
-    "imageSrc": "../../src/assets/skills_icon/reactIcon.png"
+    "title": "SASS",
+    "imageSrc": "../../src/assets/skills_icon/sass.png"
   },
   {
     "title": "JavaScript",
     "imageSrc": "../../src/assets/skills_icon/JavaScript-logo.png"
+  },
+
+  {
+    "title": "React",
+    "imageSrc": "../../src/assets/skills_icon/reactIcon.png"
   },
 
   {
@@ -23,10 +28,6 @@
   {
     "title": "Firebase",
     "imageSrc": "../../src/assets/skills_icon/firebase.png"
-  },
-  {
-    "title": "SASS",
-    "imageSrc": "../../src/assets/skills_icon/sass.png"
   },
 
   {

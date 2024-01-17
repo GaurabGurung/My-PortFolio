@@ -6,19 +6,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10px;
   width: 100%;
+  overflow: hidden;
+  z-index: 2;
+  background-color: #e8c547;
 }
 .container {
-  position: relative;
-  color: var(--color-text);
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 1;
-  margin-top: 79px;
+  margin-top: 50px;
   margin-left: 10%;
   margin-right: 10%;
   color: black;
+  background-color: var(--color-bg);
 }
 .title {
   font-size: 45px;
@@ -26,7 +29,7 @@
   letter-spacing: 1.75px;
   padding-top: 50px;
   z-index: 5;
-  color: white;
+  color: black;
 }
 
 .skills {
@@ -34,9 +37,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 25px;
+  padding: 20px;
 
   justify-content: space-evenly;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-bottom: 50px;
   /* margin: 50px 8%; */
 }
@@ -45,6 +49,8 @@
   flex-direction: column;
   align-items: center;
   gap: 11px;
+
+  z-index: 5;
 }
 .toolTitle {
   display: flex;
@@ -53,11 +59,24 @@
   width: 50px;
 }
 .skillImageContainer {
+  position: relative;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 .skillImageContainer:hover {
   animation: jumpAndBack 0.6s ease-in-out;
+}
+
+.block {
+  position: absolute;
+  background: #fdffff;
+  height: 100vh;
+  width: 500vw;
+  z-index: 1;
+  top: 60%;
+  left: -200px;
+  transform: rotate(10deg);
+  z-index: -1;
 }
 
 @keyframes jumpAndBack {

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import styles from "../education/education.module.css";
+import styles from "./qualtification.module.css";
 import Img1 from "../../assets/hero/Img1.png";
 import Img2 from "../../assets/hero/Img2.png";
 import Img3 from "../../assets/hero/Img3.png";
 import lignts from "../../assets/hero/light3.png";
 import EducationSection from "../education-section/education-section";
 
-const Education = () => {
+const Qualtification = () => {
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
 
@@ -31,7 +31,7 @@ const Education = () => {
   };
 
   return (
-    <div className={styles.container} id="education">
+    <div className={styles.container} id="qualification">
       <div className={styles.block} />
       <img src={lignts} className={styles.lights} />
       <img
@@ -39,9 +39,7 @@ const Education = () => {
         src={isClicked ? Img3 : isHovered ? Img2 : Img1}
         alt="hero_image"
       />
-      <h2 className={styles.title}>
-        My Education <br /> Background
-      </h2>
+      <h2 className={styles.title}>My Qualtification</h2>
       <div
         className={styles.sectionCotainer}
         onMouseEnter={handleMouseEnter}
@@ -60,4 +58,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Qualtification;

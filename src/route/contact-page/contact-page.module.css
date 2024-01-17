@@ -1,3 +1,4 @@
+@import "../../vars.css";
 .container {
   display: flex;
   flex-direction: column;
@@ -87,9 +88,6 @@
   padding: 8px;
   color: gray;
 }
-.button {
-  width: 100%;
-}
 
 .contact__area {
   height: 10rem;
@@ -97,15 +95,6 @@
 .contact__area textarea {
   resize: none;
   padding-top: 1.25rem;
-}
-
-.contact__send {
-  padding-block: 1.25rem;
-  cursor: pointer;
-  margin-bottom: 5px;
-  background-color: var(--color-dark);
-  color: white;
-  justify-self: center;
 }
 
 .contact__message {
@@ -116,8 +105,16 @@
 }
 
 .button {
+  padding-block: 1.25rem;
+  cursor: pointer;
+  margin-bottom: 5px;
+  background-color: var(--color-red);
+  color: white;
+  justify-self: center;
+  width: 100%;
   background: var(--color-dark);
   color: white;
+  border: none;
 }
 .contact__send:hover {
   background-color: var(--color-light);

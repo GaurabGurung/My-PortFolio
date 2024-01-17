@@ -19,12 +19,12 @@
   align-items: center;
   list-style: none;
   padding: 25px;
-  background: var(--color-dark);
   background-repeat: no-repeat;
   transition: 0.4s;
   cursor: pointer;
+  background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  color: white;
+  color: black;
   background-image: none;
   margin-left: 10%;
   box-sizing: border-box;

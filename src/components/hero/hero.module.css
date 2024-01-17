@@ -100,6 +100,10 @@
   width: 35vw;
   height: 100vh;
 }
+.bottomLine {
+  background-color: var(--color-dark);
+  height: 5px;
+}
 
 @media screen and (max-width: 830px) {
   .container {

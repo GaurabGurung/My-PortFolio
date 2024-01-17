@@ -7,7 +7,7 @@ const Footer = () => {
     <div className={styles.wholePage}>
       <div className={styles.footer__container}>
         <a href="/#" className={styles.footer__logo}>
-          Gaurab Gurung
+          Gaurab <span className={styles.lastName}>Gurung</span>
         </a>
         <ul className={styles.footer__links}>
           <li>

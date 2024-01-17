@@ -27,6 +27,7 @@
   display: flex;
   gap: 35px;
   list-style: none;
+  padding-top: 10px;
 }
 
 .menuItems a {
@@ -37,6 +38,10 @@
 
 .menuBtn {
   display: none;
+}
+
+.lastName {
+  color: rgb(77, 216, 216);
 }
 
 /* Media Queries: makes the page responsive, by give different styles to the classes based on the width of the page*/

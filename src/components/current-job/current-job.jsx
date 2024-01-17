@@ -28,7 +28,7 @@ const CurrentJob = () => {
         </li>
         {/* </div> */}
       </ul>
-      {/* <div className={styles.block} /> */}
+      <div className={styles.block} />
     </div>
   );
 };

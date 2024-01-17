@@ -55,6 +55,9 @@
 .footer__social img:hover {
   transform: translateY(-0.4rem);
 }
+.lastName {
+  color: rgb(77, 216, 216);
+}
 
 .footer__copy {
   font-size: 10px;

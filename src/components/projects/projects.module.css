@@ -1,48 +1,13 @@
-@import "../../vars.css";
-
 .container {
-  margin-top: 76px;
-  color: var(--color-text);
-  margin-left: 0%;
-  margin-right: 0%;
-  height: 100vh;
-  width: 100%;
-}
-
-.title {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
   display: flex;
-  justify-content: center;
-}
-
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
 }
-
-/* .projImg {
-  filter: grayscale(1);
-  width: 500px;
-  width: 100%;
-  height: 100%;
+.projects {
+  display: grid;
+}
+.projectImg {
+  height: 200px;
+  width: 260px;
   object-fit: cover;
-  transition: filter 0.5s, transform 0.5s;
-  z-index: 2;
 }
-.work_link:hover .projImg {
-  filter: none;
-}
-
-.work_link:hover .icon {
-  transform: scale(1.1);
-  transform: translate(0.5em, -0.5rem) rotate(-30deg);
-} */

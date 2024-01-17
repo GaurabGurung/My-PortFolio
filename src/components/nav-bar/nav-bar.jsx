@@ -52,7 +52,7 @@ const Navbar = () => {
     <>
       <nav className={styles.navbar}>
         <a className={styles.title} href="/#">
-          Gaurab Gurung
+          Gaurab <span className={styles.lastName}>Gurung</span>
         </a>
         {renderLinks()}
       </nav>

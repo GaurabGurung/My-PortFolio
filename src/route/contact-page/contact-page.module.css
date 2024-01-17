@@ -112,7 +112,7 @@
   color: white;
   justify-self: center;
   width: 100%;
-  background: var(--color-dark);
+  /* background: var(--color-dark); */
   color: white;
   border: none;
 }

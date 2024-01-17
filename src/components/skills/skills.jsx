@@ -25,7 +25,7 @@ export const Skills = () => {
           </div>
           <CurrentJob />
         </section>
-        <div className={styles.block} />
+        x{" "}
       </div>
     </>
   );

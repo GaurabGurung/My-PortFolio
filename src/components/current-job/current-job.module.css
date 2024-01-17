@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  z-index: 1;
 }
 
 .currentJob {
@@ -19,7 +21,8 @@
   color: gray;
   background: none;
 }
-
+.listItems {
+}
 .listItem {
   padding: 10px;
   background-color: #cba328;
@@ -31,3 +34,14 @@
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
+/* .block {
+  position: absolute;
+  background: #fdffff;
+  height: 100vh;
+  width: 500vw;
+  z-index: 1;
+  top: 60%;
+  left: -200px;
+  transform: rotate(15deg);
+  z-index: 0;
+} */

@@ -108,16 +108,18 @@
   padding-block: 1.25rem;
   cursor: pointer;
   margin-bottom: 5px;
-  background-color: var(--color-red);
+  background-color: var(--color-teal);
   color: white;
   justify-self: center;
   width: 100%;
   /* background: var(--color-dark); */
   color: white;
   border: none;
+  font-size: 15px;
+  font-style: normal;
 }
 .contact__send:hover {
-  background-color: var(--color-light);
+  background-color: var(--color-hitext);
 }
 
 @media screen and (min-width: 900px) {

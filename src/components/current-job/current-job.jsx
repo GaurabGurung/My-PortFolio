@@ -4,7 +4,10 @@ const CurrentJob = () => {
   return (
     <div className={styles.container}>
       {/* <div className={styles.historyDetails}> */}
-      <h2 className={styles.heading}>My Current Job: ICT Helpdesk Support</h2>
+      <h2 className={styles.heading}>
+        My Current Job:
+        <span className={styles.text_highlight}> ICT Helpdesk Support</span>
+      </h2>
       <p className={styles.description}>
         My extensive background as an ICT HelpDesk Officer, has equipped me with
         a unique set of transferable skills that I am confident will make a

@@ -4,6 +4,7 @@ import Skills from "../../components/skills/skills";
 import Projects from "../../components/projects/projects";
 import Footer from "../../components/footer/footer";
 import ScrollUp from "../../components/scroll-up/scroll-up";
+import Test from "../../components/testing/test";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Projects />
       <Footer />
       <ScrollUp />
+      {/* <Test /> */}
     </>
   );
 };

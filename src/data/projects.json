@@ -10,9 +10,9 @@
   {
     "title": "Monster Rolodex",
     "imageSrc": "../../src/assets/projects/monsters.png",
-    "description": "This is a project made to learn the latest ",
+    "description": "This is a project made to react JS ",
     "skills": ["React", "JavaScript", "Redux"],
-    "demo": "https://max-online-shop.netlify.app/",
+    "demo": "https://monster-friends-search.netlify.app/",
     "source": "https://github.com/GaurabGurung/monster-app-Functional-component"
   },
   {

@@ -6,29 +6,41 @@ import Proj1 from "../../assets/projects/clothing-store.png";
 import Proj2 from "../../assets/projects/monsters.png";
 import Proj3 from "../../assets/projects/weatherApp.png";
 
-import ProjectCard from "./projectCard";
-
 const Projects = () => {
   return (
     <div className={styles.fullContainer}>
+      <h2 className={styles.title}>
+        My <span className={styles.text_highlight}>Projects</span>
+      </h2>
       <section className={styles.container} id="projects">
-        <h2 className={styles.title}>Projects</h2>
         {projects.map((project) => {
           return (
-            <article className={styles.projects}>
-              <img
-                src={project.imageSrc}
-                alt="project image"
-                className={styles.projectImg}
-              />
-              <div>
-                <span className={styles.subtitle}>{project.description}</span>
-                <h2 className={styles.title}>{project.title}</h2>
-                <a href={project.demo} target="_blank">
-                  View Demo <RiExternalLinkLine />
-                </a>
-              </div>
-            </article>
+            <div>
+              <article
+                className={`${styles.projects__card}`}
+                key={project.title}
+              >
+                <div className={styles.imageContainer}>
+                  <img
+                    src={project.imageSrc}
+                    alt="project image"
+                    className={styles.projectImg}
+                  />
+                </div>
+                <div className={styles.projects__modal}>
+                  <h2 className={styles.project__title}>{project.title}</h2>
+                  <span className={styles.subtitle}>{project.description}</span>
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    className={styles.projects__button}
+                  >
+                    View Demo <RiExternalLinkLine />
+                  </a>
+                </div>
+              </article>
+              <h1 className={styles.project_sub}>{project.title}</h1>
+            </div>
           );
         })}
       </section>

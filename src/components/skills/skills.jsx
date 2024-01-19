@@ -7,7 +7,9 @@ export const Skills = () => {
   return (
     <>
       <div className={styles.full} id="experience">
-        <h2 className={styles.title}>My Skills Are </h2>
+        <h2 className={styles.title}>
+          My <span className={styles.highlight}>Skills</span>
+        </h2>
         <section className={styles.container}>
           <div className={styles.content}>
             <div className={styles.skills}>
@@ -23,9 +25,10 @@ export const Skills = () => {
               })}
             </div>
           </div>
-          <CurrentJob />
         </section>
-        x{" "}
+        <CurrentJob />
+        {/* <div className={styles.block} /> */}
+        <div className={styles.block} />
       </div>
     </>
   );

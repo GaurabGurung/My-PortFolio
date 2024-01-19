@@ -1,6 +1,6 @@
 .container {
   background: none;
-  padding: 25px 20px;
+  padding-top: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +12,7 @@
 }
 
 .heading {
-  font-size: 32px;
+  font-size: 24px;
   margin-bottom: 20px;
 }
 .description {
@@ -33,6 +33,11 @@
   cursor: pointer;
   background: white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.text_highlight {
+  color: var(--color-hitext);
+  font-size: 32px;
 }
 /* .block {
   position: absolute;

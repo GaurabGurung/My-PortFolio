@@ -7,8 +7,8 @@
   padding: 0px 5% 13px 3%;
   z-index: 10;
   background-color: var(--color-dark);
-  flex-direction: row;
-  justify-content: space-between;
+  /* flex-direction: row;
+  justify-content: space-between; */
 }
 .title {
   font-size: 20px;
@@ -17,10 +17,6 @@
   color: var(--color-text);
   margin-right: 90px;
   margin-top: 10px;
-}
-
-.menu {
-  display: flex;
 }
 
 .menuItems {
@@ -36,16 +32,23 @@
   text-decoration: none;
 }
 
+.menu {
+  margin-left: auto;
+}
+.backMenu a {
+  /* color: var(--color-hitext); */
+}
+
 .menuBtn {
   display: none;
 }
 
-.lastName {
-  color: rgb(77, 216, 216);
+.text_highlight {
+  color: var(--color-hitext);
 }
 
 /* Media Queries: makes the page responsive, by give different styles to the classes based on the width of the page*/
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 890px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
@@ -63,6 +66,7 @@
   .menuBtn {
     display: block;
     cursor: pointer;
+    margin-right: 25px;
   }
 
   .menuItems {
@@ -99,4 +103,8 @@
   background: #f05812;
   cursor: pointer;
   box-shadow: 0px 4px 8px #421502;
+}
+
+.menuItem:hover {
+  color: var(--color-hitext);
 }

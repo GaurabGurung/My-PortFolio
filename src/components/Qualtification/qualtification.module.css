@@ -46,6 +46,9 @@
   text-align: center;
   padding-top: 100px;
 }
+.text_highlight {
+  color: var(--color-hitext);
+}
 
 .content {
   display: flex;

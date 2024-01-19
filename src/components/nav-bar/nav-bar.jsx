@@ -12,9 +12,11 @@ const Navbar = () => {
   const renderLinks = () => {
     if (location.pathname === "/contact") {
       return (
-        <ul className={`${styles.menuItems}`}>
+        <ul className={`${styles.menu} ${styles.menuItems}`}>
           <li>
-            <Link to="/">Go Back</Link>
+            <Link to="/">
+              Return <span className={styles.text_highlight}>Back</span>
+            </Link>
           </li>
         </ul>
       );
@@ -23,20 +25,26 @@ const Navbar = () => {
     return (
       <div className={styles.menu}>
         <img
-          className={styles.menuBtn}
+          className={`${styles.menuBtn} ${styles.menu}`}
           src={menuOpen ? CloseIcon : MenuIcon}
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
         <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}>
           <li>
-            <a href="/#qualification">My Qualification</a>
+            <a href="/#qualification" className={styles.menuItem}>
+              My Qualification
+            </a>
           </li>
           <li>
-            <a href="/#experience">My Skills</a>
+            <a href="/#experience" className={styles.menuItem}>
+              My Skills
+            </a>
           </li>
           <li>
-            <a href="/#projects">Projects</a>
+            <a href="/#projects" className={styles.menuItem}>
+              Projects
+            </a>
           </li>
           <li>
             <Link to="/contact" className={styles.containerBtn}>
@@ -52,7 +60,7 @@ const Navbar = () => {
     <>
       <nav className={styles.navbar}>
         <a className={styles.title} href="/#">
-          Gaurab <span className={styles.lastName}>Gurung</span>
+          Gaurab <span className={styles.text_highlight}>Gurung</span>
         </a>
         {renderLinks()}
       </nav>

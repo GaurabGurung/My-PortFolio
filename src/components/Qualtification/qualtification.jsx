@@ -39,7 +39,9 @@ const Qualtification = () => {
         src={isClicked ? Img3 : isHovered ? Img2 : Img1}
         alt="hero_image"
       />
-      <h2 className={styles.title}>My Qualtification</h2>
+      <h2 className={styles.title}>
+        My <span className={styles.text_highlight}>Qualtification</span>
+      </h2>
       <div
         className={styles.sectionCotainer}
         onMouseEnter={handleMouseEnter}

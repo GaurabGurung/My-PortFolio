@@ -30,14 +30,14 @@ export const Hero = () => {
               target="-blank"
               className={styles.socialLink}
             >
-              <RiLinkedinBoxFill size={30} color="teal" />
+              <RiLinkedinBoxFill size={30} color="#68468a" />
             </a>
             <a
               href="https://github.com/GaurabGurung"
               target="-blank"
               className={styles.socialLink}
             >
-              <RiGithubFill size={30} color="teal" />
+              <RiGithubFill size={30} color="#68468a" />
             </a>
           </div>
         </div>

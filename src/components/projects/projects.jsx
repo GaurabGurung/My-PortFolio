@@ -15,18 +15,16 @@ const Projects = () => {
       <section className={styles.container} id="projects">
         {projects.map((project) => {
           return (
-            <div>
+            <div className={styles.hh}>
               <article
                 className={`${styles.projects__card}`}
                 key={project.title}
               >
-                <div className={styles.imageContainer}>
-                  <img
-                    src={project.imageSrc}
-                    alt="project image"
-                    className={styles.projectImg}
-                  />
-                </div>
+                <img
+                  src={project.imageSrc}
+                  alt="project image"
+                  className={styles.projectImg}
+                />
                 <div className={styles.projects__modal}>
                   <h2 className={styles.project__title}>{project.title}</h2>
                   <span className={styles.subtitle}>{project.description}</span>

@@ -29,9 +29,7 @@ const CurrentJob = () => {
         <li className={styles.listItem}>
           <h3>Teamwork and Analytical Thinking</h3>
         </li>
-        {/* </div> */}
       </ul>
-      <div className={styles.block} />
     </div>
   );
 };

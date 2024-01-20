@@ -9,14 +9,10 @@
   width: 100%;
   padding-top: 60px;
   padding-bottom: 50px;
-  background: linear-gradient(
-    to bottom,
-    rgba(194, 190, 190, 0) 0%,
-    rgb(248, 206, 98) 98%
-  );
+  background-image: linear-gradient(to right, #e96d57cd 20%, #a5130086 98%);
 }
 .highlight {
-  color: var(--color-hitext);
+  color: #a51200;
 }
 .container {
   display: flex;
@@ -26,13 +22,13 @@
   margin-top: 50px;
   margin-left: 10%;
   margin-right: 10%;
-  color: black;
+  color: white;
 }
 .title {
   font-size: 45px;
   font-weight: 1000;
   letter-spacing: 1.75px;
-  color: black;
+  color: white;
 }
 
 .skills {

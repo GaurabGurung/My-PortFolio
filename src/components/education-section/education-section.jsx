@@ -13,7 +13,7 @@ const EducationSection = () => {
             alt="WebDev-icon"
             className={styles.webDevIcon}
           />
-          <div className={styles.itemItext}>
+          <div className={styles.itemText}>
             <h3>Zero To Mastery Academy</h3>
             <p>Complete Web Developer Complete</p>
             <p>JavaScript: The advanced Concept</p>

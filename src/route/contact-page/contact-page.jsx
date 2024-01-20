@@ -41,7 +41,8 @@ const ContactPage = () => {
       <div className={styles.container}>
         <section className={`${styles.contact} ${styles.section}`}>
           <h2 className={`${styles.section_title}`}>
-            Let's Talk <br /> for an Interview
+            Let's Talk
+            <br /> <span className={styles.textHiglight}>Contact </span>Me
           </h2>
 
           <div className={`${styles.contact__page}`}>

@@ -1,12 +1,26 @@
 import styles from "../current-job/current-job.module.css";
-
+import { motion } from "framer-motion";
 const CurrentJob = () => {
+  const fadeIn = {
+    initial: {
+      opacity: 0,
+    },
+    animate: {
+      opacity: 1,
+    },
+  };
   return (
-    <div className={styles.container}>
+    <motion.div
+      className={styles.container}
+      variants={fadeIn}
+      initial="initial"
+      whileInView="animate"
+      transition={{ duration: 2 }}
+    >
       {/* <div className={styles.historyDetails}> */}
       <h2 className={styles.heading}>
         My Current Job:
-        <span className={styles.text_highlight}> ICT Helpdesk Support</span>
+        <span className={styles.text_highlight}> ICT Officer</span>
       </h2>
       <p className={styles.description}>
         My extensive background as an ICT HelpDesk Officer, has equipped me with
@@ -30,7 +44,7 @@ const CurrentJob = () => {
           <h3>Teamwork and Analytical Thinking</h3>
         </li>
       </ul>
-    </div>
+    </motion.div>
   );
 };
 

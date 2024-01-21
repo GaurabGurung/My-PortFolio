@@ -2,9 +2,21 @@ import styles from "./contact-page.module.css";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Footer from "../../components/footer/footer";
+import { motion } from "framer-motion";
 
 const ContactPage = () => {
   const form = useRef();
+
+  const fadeInFromBottom = {
+    initial: {
+      opacity: 0,
+      y: 50,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+    },
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -46,7 +58,11 @@ const ContactPage = () => {
           </h2>
 
           <div className={`${styles.contact__page}`}>
-            <form
+            <motion.form
+              variants={fadeInFromBottom}
+              initial="initial"
+              whileInView="animate"
+              transition={{ duration: 1.5 }}
               id="contact-form"
               action=""
               className={`${styles.contact__form}`}
@@ -98,7 +114,7 @@ const ContactPage = () => {
                 />
                 <p className={styles.contact__message} id="contact-message"></p>
               </div>
-            </form>
+            </motion.form>
           </div>
         </section>
         <Footer />

@@ -1,18 +1,33 @@
 import React from "react";
 import styles from "../projects/projects.module.css";
+import { motion } from "framer-motion";
 import projects from "../../data/projects.json";
 import { RiExternalLinkLine } from "@remixicon/react";
-import Proj1 from "../../assets/projects/clothing-store.png";
-import Proj2 from "../../assets/projects/monsters.png";
-import Proj3 from "../../assets/projects/weatherApp.png";
 
 const Projects = () => {
+  const fadeIn = {
+    initial: {
+      opacity: 0,
+      x: -100,
+    },
+    animate: {
+      opacity: 1,
+      x: 0,
+    },
+  };
   return (
     <div className={styles.fullContainer}>
       <h2 className={styles.title}>
         My <span className={styles.text_highlight}>Projects</span>
       </h2>
-      <section className={styles.container} id="projects">
+      <motion.section
+        className={styles.container}
+        id="projects"
+        variants={fadeIn}
+        initial="initial"
+        transition={{ duration: 1.5 }}
+        whileInView="animate"
+      >
         {projects.map((project) => {
           return (
             <div className={styles.hh}>
@@ -41,7 +56,7 @@ const Projects = () => {
             </div>
           );
         })}
-      </section>
+      </motion.section>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import Hero from "../../components/hero/hero";
-import Qualtification from "../../components/Qualtification/qualtification";
+import Qualification from "../../components/Qualification/qualification";
 import Skills from "../../components/skills/skills";
 import Projects from "../../components/projects/projects";
 import Footer from "../../components/footer/footer";
@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Qualtification />
+      <Qualification />
       <Skills />
       <Projects />
       <Footer />

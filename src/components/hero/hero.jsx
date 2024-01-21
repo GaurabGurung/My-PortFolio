@@ -1,14 +1,41 @@
 import React from "react";
-import HeroImg from "../../assets/hero/hero-1.png";
+import { motion } from "framer-motion";
 import styles from "./Hero.module.css";
+
+import HeroImg from "../../assets/hero/hero-1.png";
 import { RiLinkedinBoxFill, RiGithubFill } from "@remixicon/react";
-// import github from "../../assets/social/github.png";
-// import linkedin from "../../assets/social/linkedin.png";
+
 export const Hero = () => {
+  const fadeInFromTop = {
+    initial: {
+      opacity: 0,
+      y: -100,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+    },
+  };
+  const fadeInFromBottom = {
+    initial: {
+      opacity: 0,
+      y: 100,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+    },
+  };
   return (
     <>
       <section className={styles.container}>
-        <div className={styles.content}>
+        <motion.div
+          className={styles.content}
+          variants={fadeInFromTop}
+          initial="initial"
+          whileInView="animate"
+          transition={{ duration: 2 }}
+        >
           <h3 className={styles.title}>
             Hello, <span className={styles.textColor}> I'm</span>
             <br />
@@ -19,7 +46,8 @@ export const Hero = () => {
             Science. Reach out if you'd like to learn more!
           </p>
           <a
-            href="mailto:gaurabgurung181@gmail.com"
+            href="/assets/resume/gaurab_resume.pdf"
+            download="gaurab_resume.pdf"
             className={styles.containerBtn}
           >
             Download CV
@@ -40,8 +68,8 @@ export const Hero = () => {
               <RiGithubFill size={30} color="#68468a" />
             </a>
           </div>
-        </div>
-        <img src={HeroImg} alt="Hero image" className={styles.heroImg} />
+        </motion.div>
+        <motion.img src={HeroImg} alt="Hero image" className={styles.heroImg} />
         <div className={styles.shawdow} />
         <div className={styles.sideColor} />
         <div className={styles.bottomLine} />

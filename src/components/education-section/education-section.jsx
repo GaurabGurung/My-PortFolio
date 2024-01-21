@@ -1,12 +1,31 @@
 import styles from "./education-section.module.css";
+import { motion } from "framer-motion";
+
 import WebDevIcon from "../../assets/education-icon/webDevIcon.png";
 import GraduationIcon from "../../assets/education-icon/degreeIcon.png";
 import PyIcon from "../../assets/education-icon/py.png";
 
 const EducationSection = () => {
+  const fadeInFromTop = {
+    initial: {
+      opacity: 0,
+      y: -100,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+    },
+  };
+
   return (
     <>
-      <ul className={styles.aboutItems}>
+      <motion.ul
+        variants={fadeInFromTop}
+        initial="initial"
+        transition={{ duration: 1.5 }}
+        whileInView="animate"
+        className={styles.aboutItems}
+      >
         <li className={styles.aboutItem}>
           <img
             src={WebDevIcon}
@@ -43,7 +62,7 @@ const EducationSection = () => {
             <p>Melbourne Institute of Technology, Melbourne</p>
           </div>
         </li>
-      </ul>
+      </motion.ul>
     </>
   );
 };

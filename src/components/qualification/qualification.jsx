@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./qualtification.module.css";
+import styles from "./qualification.module.css";
 import Lottie from "lottie-react";
 import EducationSection from "../education-section/education-section";
 
@@ -9,11 +9,12 @@ import Img3 from "../../assets/hero/img3.png";
 import monitor from "../../assets/animation/monitor.json";
 import light from "../../assets/hero/light3.png";
 import lightsOff from "../../assets/hero/lightsOff.png";
+
 import hello from "../../assets/animation/hello.json";
 import twinkle from "../../assets/animation/twinkle.json";
 import thankyou from "../../assets/animation/thankyou.json";
 
-const Qualtification = () => {
+const Qualification = () => {
   const [isHovered, setIsHovered] = useState(false);
   const [isOn, setIsOn] = useState(false);
   const [isSetOn, setIsSetOn] = useState(false);
@@ -70,7 +71,7 @@ const Qualtification = () => {
       <img className={styles.heroImg} src={heroImg} alt="hero_image" />
 
       <h2 className={styles.title}>
-        My <span className={styles.text_highlight}>Qualtification</span>
+        My <span className={styles.text_highlight}>Qualification</span>
       </h2>
       <div
         className={styles.sectionCotainer}
@@ -87,4 +88,4 @@ const Qualtification = () => {
   );
 };
 
-export default Qualtification;
+export default Qualification;

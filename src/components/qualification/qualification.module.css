@@ -13,6 +13,7 @@
   z-index: 66;
   top: 12vw;
   left: 6vw;
+  cursor: pointer;
   /* background-color: red; */
 }
 

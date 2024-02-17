@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import styles from "./Hero.module.css";
+import styles from "./hero.module.css";
 
 import HeroImg from "../../assets/hero/hero-1.png";
 import { RiLinkedinBoxFill, RiGithubFill } from "@remixicon/react";

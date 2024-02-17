@@ -8,6 +8,14 @@
     "source": "https://github.com/GaurabGurung/adding-TS-in-our-Clothing-app-which-uses-Redux-Stripe-and-netlify-functions"
   },
   {
+    "title": "Taste Hub",
+    "imageSrc": "../../src/assets/projects/tastehub.png",
+    "description": "This is the front end of a food Website ",
+    "skills": ["JavaScript", "scss"],
+    "demo": "https://ourtastehub.netlify.app/",
+    "source": "https://github.com/GaurabGurung/food-app"
+  },
+  {
     "title": "Monster Rolodex",
     "imageSrc": "../../src/assets/projects/monsters.png",
     "description": "This is a project made to react JS ",

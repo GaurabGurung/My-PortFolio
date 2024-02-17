@@ -15,6 +15,6 @@
   box-shadow: 0 12px 24px rgb(45, 43, 43);
 }
 
-.show-scroll {
-  bottom: 3rem; /* Adjust as needed */
+.showScroll {
+  bottom: 3rem;
 }

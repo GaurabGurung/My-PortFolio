@@ -1,5 +1,13 @@
 [
   {
+    "title": "Heaven Mart",
+    "imageSrc": "../../src/assets/projects/havenMart.png",
+    "description": "This is a project is made using react, reactstrap, firebase",
+    "skills": ["JavaScript", "scss"],
+    "demo": "https://haven-mart.netlify.app/home",
+    "source": "https://github.com/GaurabGurung/Haven-Mart"
+  },
+  {
     "title": "Online Clothing Store",
     "imageSrc": "../../src/assets/projects/clothing-store.png",
     "description": "This is a project made to learn the latest ",

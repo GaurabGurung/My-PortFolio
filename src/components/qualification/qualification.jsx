@@ -5,7 +5,7 @@ import EducationSection from "../education-section/education-section";
 
 import Img1 from "../../assets/hero/Img1.png";
 import Img2 from "../../assets/hero/Img2.png";
-import Img3 from "../../assets/hero/img3.png";
+import Img3 from "../../assets/hero/Img3.png";
 import monitor from "../../assets/animation/monitor.json";
 import light from "../../assets/hero/light3.png";
 import lightsOff from "../../assets/hero/lightsOff.png";

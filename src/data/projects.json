@@ -22,21 +22,5 @@
     "skills": ["JavaScript", "scss"],
     "demo": "https://ourtastehub.netlify.app/",
     "source": "https://github.com/GaurabGurung/food-app"
-  },
-  {
-    "title": "Monster Rolodex",
-    "imageSrc": "../../src/assets/projects/monsters.png",
-    "description": "This is a project made to react JS ",
-    "skills": ["React", "JavaScript", "Redux"],
-    "demo": "https://monster-friends-search.netlify.app/",
-    "source": "https://github.com/GaurabGurung/monster-app-Functional-component"
-  },
-  {
-    "title": "WeatherApp",
-    "imageSrc": "../../src/assets/projects/weatherApp.png",
-    "description": "This is a project made to learn the weather API ",
-    "skills": ["JavaScript", "scss"],
-    "demo": "https://max-online-shop.netlify.app/",
-    "source": "https://github.com/GaurabGurung/Weather-App"
   }
 ]

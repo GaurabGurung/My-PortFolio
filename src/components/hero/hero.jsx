@@ -52,6 +52,7 @@ export const Hero = () => {
           >
             Download CV
           </a>
+
           <div className={styles.social}>
             <a
               href="https://www.linkedin.com/in/gaurab-gurung/"
@@ -69,10 +70,16 @@ export const Hero = () => {
             </a>
           </div>
         </motion.div>
-        <motion.img src={HeroImg} alt="Hero image" className={styles.heroImg} />
-        <div className={styles.shawdow} />
-        <div className={styles.sideColor} />
-        <div className={styles.bottomLine} />
+        <div className={styles.image_container}>
+          <motion.img
+            src={HeroImg}
+            alt="Hero image"
+            className={styles.heroImg}
+          />
+          <div className={styles.shawdow} />
+          <div className={styles.sideColor} />
+          {/* <div className={styles.bottomLine} /> */}
+        </div>
       </section>
     </>
   );

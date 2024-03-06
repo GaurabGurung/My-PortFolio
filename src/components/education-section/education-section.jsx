@@ -30,7 +30,7 @@ const EducationSection = () => {
           <img
             src={WebDevIcon}
             alt="WebDev-icon"
-            className={styles.webDevIcon}
+            className={styles.webDevIcon}webDevIcon
           />
           <div className={styles.itemText}>
             <h3>Zero To Mastery Academy</h3>

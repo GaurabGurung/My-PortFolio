@@ -30,11 +30,8 @@ const Projects = () => {
       >
         {projects.map((project) => {
           return (
-            <div className={styles.hh}>
-              <article
-                className={`${styles.projects__card}`}
-                key={project.title}
-              >
+            <div className={styles.projects__card}>
+              <article className={`${styles.project_info}`} key={project.title}>
                 <img
                   src={project.imageSrc}
                   alt="project image"

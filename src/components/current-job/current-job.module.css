@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   color: white;
+  width: 90%;
 }
 
 .currentJob {
@@ -14,6 +15,7 @@
   font-size: 24px;
   margin-bottom: 20px;
   color: white;
+  text-align: center;
 }
 .description {
   text-align: center;

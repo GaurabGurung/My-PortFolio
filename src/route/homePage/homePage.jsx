@@ -1,4 +1,4 @@
-import Hero from "../../components/hero/hero";
+import Hero from "../../components/hero/hero.jsx";
 import Qualification from "../../components/qualification/qualification.jsx";
 import Skills from "../../components/skills/skills";
 import Projects from "../../components/projects/projects";

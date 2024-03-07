@@ -28,9 +28,21 @@ const EducationSection = () => {
       >
         <li className={styles.aboutItem}>
           <img
+            src={GraduationIcon}
+            alt="degree_icon"
+            className={styles.degree}
+          />
+          <div className={styles.itemItext}>
+            <h3>Master of Computer Science</h3>
+            <p>Melbourne Institute of Technology, Melbourne</p>
+          </div>
+        </li>
+        <li className={styles.aboutItem}>
+          <img
             src={WebDevIcon}
             alt="WebDev-icon"
-            className={styles.webDevIcon}webDevIcon
+            className={styles.webDevIcon}
+            webDevIcon
           />
           <div className={styles.itemText}>
             <h3>Zero To Mastery Academy</h3>
@@ -39,7 +51,6 @@ const EducationSection = () => {
             <p>React Developer Course JavaScript: The advanced Concept</p>
           </div>
         </li>
-
         <li className={styles.aboutItem}>
           <img
             src={PyIcon}
@@ -49,17 +60,6 @@ const EducationSection = () => {
           <div className={styles.itemText}>
             <h3>IT Professional Year</h3>
             <p>Performance Education, Melbourne City</p>
-          </div>
-        </li>
-        <li className={styles.aboutItem}>
-          <img
-            src={GraduationIcon}
-            alt="degree_icon"
-            className={styles.degree}
-          />
-          <div className={styles.itemItext}>
-            <h3>Master of Computer Science</h3>
-            <p>Melbourne Institute of Technology, Melbourne</p>
           </div>
         </li>
       </motion.ul>

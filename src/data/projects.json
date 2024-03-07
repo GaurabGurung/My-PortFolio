@@ -8,11 +8,11 @@
     "source": "https://github.com/GaurabGurung/Haven-Mart"
   },
   {
-    "title": "Online Clothing Store",
+    "title": "Fashion Elegance Clothing Store",
     "imageSrc": "/projects/clothing-store.png",
     "description": "This is a project made to learn the latest ",
     "skills": ["React", "JavaScript", "Redux"],
-    "demo": "https://max-online-shop.netlify.app/",
+    "demo": "https://fashion-elegance.netlify.app/",
     "source": "https://github.com/GaurabGurung/adding-TS-in-our-Clothing-app-which-uses-Redux-Stripe-and-netlify-functions"
   },
   {

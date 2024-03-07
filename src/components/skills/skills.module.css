@@ -2,7 +2,7 @@
 .full {
   position: relative;
   background-color: var(--color-bg);
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,6 +13,7 @@
   min-width: 375px;
   margin-top: auto;
   margin-bottom: auto;
+  justify-content: center;
 }
 .highlight {
   color: #a51200;

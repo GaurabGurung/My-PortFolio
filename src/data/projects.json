@@ -18,7 +18,7 @@
   {
     "title": "Taste Hub",
     "imageSrc": "/projects/tastehub.png",
-    "description": "This is a front end website template for a food Website",
+    "description": "This is a front end website template idea for a food shop",
     "skills": ["JavaScript", "scss"],
     "demo": "https://ourtastehub.netlify.app/",
     "source": "https://github.com/GaurabGurung/food-app"

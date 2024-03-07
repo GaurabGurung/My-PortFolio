@@ -1,7 +1,7 @@
 [
   {
     "title": "Heaven Mart",
-    "imageSrc": "../../src/assets/projects/havenMart.png",
+    "imageSrc": "/projects/havenMart.png",
     "description": "This is a project is made using react, reactstrap, firebase",
     "skills": ["JavaScript", "scss"],
     "demo": "https://haven-mart.netlify.app/home",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Online Clothing Store",
-    "imageSrc": "../../src/assets/projects/clothing-store.png",
+    "imageSrc": "/projects/clothing-store.png",
     "description": "This is a project made to learn the latest ",
     "skills": ["React", "JavaScript", "Redux"],
     "demo": "https://max-online-shop.netlify.app/",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Taste Hub",
-    "imageSrc": "../../src/assets/projects/tastehub.png",
+    "imageSrc": "/projects/tastehub.png",
     "description": "This is the front end of a food Website ",
     "skills": ["JavaScript", "scss"],
     "demo": "https://ourtastehub.netlify.app/",

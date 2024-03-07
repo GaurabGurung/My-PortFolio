@@ -1,57 +1,57 @@
 [
   {
     "title": "HTML",
-    "imageSrc": "../../src/assets/skills_icon/HTML_Icon.png"
+    "imageSrc": "/skills_icon/HTML_Icon.png"
   },
   {
     "title": "CSS",
-    "imageSrc": "../../src/assets/skills_icon/CSS.png"
+    "imageSrc": "/skills_icon/CSS.png"
   },
   {
     "title": "SASS",
-    "imageSrc": "../../src/assets/skills_icon/sass.png"
+    "imageSrc": "/skills_icon/sass.png"
   },
   {
     "title": "JavaScript",
-    "imageSrc": "../../src/assets/skills_icon/JavaScript-logo.png"
+    "imageSrc": "/skills_icon/JavaScript-logo.png"
   },
 
   {
     "title": "React",
-    "imageSrc": "../../src/assets/skills_icon/reactIcon.png"
+    "imageSrc": "/skills_icon/reactIcon.png"
   },
 
   {
     "title": "RESTful APIs",
-    "imageSrc": "./../src/assets/skills_icon/restAPI.png"
+    "imageSrc": "/skills_icon/restAPI.png"
   },
   {
     "title": "Firebase",
-    "imageSrc": "../../src/assets/skills_icon/firebase.png"
+    "imageSrc": "/skills_icon/firebase.png"
   },
 
   {
     "title": "TypeScript",
-    "imageSrc": "../../src/assets/skills_icon/typescript.png"
+    "imageSrc": "/skills_icon/typescript.png"
   },
   {
     "title": "Redux",
-    "imageSrc": "../../src/assets/skills_icon/redux.png"
+    "imageSrc": "/skills_icon/redux.png"
   },
   {
     "title": "Responsive Websites",
-    "imageSrc": "../../src/assets/skills_icon/responsive.png"
+    "imageSrc": "/skills_icon/responsive.png"
   },
   {
     "title": "VS Code",
-    "imageSrc": "../../src/assets/skills_icon/vscode.png"
+    "imageSrc": "/skills_icon/vscode.png"
   },
   {
     "title": "Git",
-    "imageSrc": "../../src/assets/skills_icon/gitIcon.png"
+    "imageSrc": "/skills_icon/gitIcon.png"
   },
   {
     "title": "Github",
-    "imageSrc": "../../src/assets/skills_icon/github.png"
+    "imageSrc": "/skills_icon/github.png"
   }
 ]

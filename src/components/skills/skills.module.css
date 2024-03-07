@@ -11,6 +11,8 @@
   padding-bottom: 50px;
   background-image: linear-gradient(to right, #e79081cd 20%, #a5130086 98%);
   min-width: 375px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .highlight {
   color: #a51200;

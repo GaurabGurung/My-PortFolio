@@ -44,7 +44,7 @@ const Qualification = () => {
         setLottieAnimation(isHovered ? hello : monitor);
         setIsSetOn(false);
         setIsOn(false);
-      }, 4500);
+      }, 2500);
 
       return () => clearTimeout(timeoutId);
     } else {

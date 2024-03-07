@@ -1,76 +1,5 @@
 @import "../../vars.css";
 
-/* .container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 60px;
-  padding-top: 49px;
-  z-index: 1;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 130px;
-  background: var(--color-bg);
-  height: 100vh;
-  width: 100%;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; */
-/* color: var(--color-text); */
-/* z-index: 1;
-  padding-top: 10%;
-  width: 50%;
-} */
-
-/* .title {
-  font-size: 42px;
-  font-weight: 900;
-  margin-bottom: 33px;
-  font-family: var(--font-roboto);
-  background: black; */
-/* background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  ); */
-/* -webkit-text-fill-color: transparent; */
-/* -webkit-background-clip: text;
-}
-.myName {
-  color: var(--color-hitext);
-  font-size: 62px;
-  font-weight: 900;
-}
-
-.textColor {
-  color: var(--color-hitext);
-} */
-
-/* .description {
-  font-size: 20px;
-  letter-spacing: 1px;
-  margin-bottom: 52px;
-  color: black;
-}
-
-
-
-.heroImg {
-  position: relative;
-}
-
-
-/* box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.5); */
-
-/* .bottomLine {
-  background-color: var(--color-dark);
-  height: 5px;
-  z-index: 2;
-} */
-
 @import "../../vars.css";
 
 .container {
@@ -87,6 +16,11 @@
   height: 100vh;
   width: 100%;
   overflow: hidden;
+  min-height: 750px;
+  /* margin-top: 10px; */
+  /* @media screen and (min-height: 750px) {
+    height: 100%;
+  } */
 }
 
 .content {

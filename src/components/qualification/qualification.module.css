@@ -5,6 +5,7 @@
   overflow: hidden;
   z-index: 0;
   background-color: var(--color-bg);
+  min-height: 900px;
 }
 .switch {
   height: 120px;
@@ -75,6 +76,17 @@
   left: 5vw;
   top: 25vh;
 }
+
+@media screen and (max-width: 1300px) {
+  .typing,
+  .lights,
+  .twinkle,
+  .hello,
+  .heroImg {
+    display: none;
+  }
+}
+
 .lightContainer {
   position: relative;
   padding: 0;
@@ -105,7 +117,7 @@
   left: -25px;
   z-index: 6;
 }
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1300px) {
   .container {
     background-color: transparent;
     padding-left: 0;
@@ -114,9 +126,7 @@
   .content {
     flex-direction: column;
   }
-  .heroImg {
-    display: none;
-  }
+
   .section {
     width: 80%;
   }
@@ -124,18 +134,6 @@
     justify-content: center;
     margin-right: 0;
     padding-right: 10px;
-  }
-  .typing {
-    display: none;
-  }
-  .lights {
-    display: none;
-  }
-  .twinkle {
-    display: none;
-  }
-  .hello {
-    display: none;
   }
 }
 @media screen and (min-width: 2150px) {

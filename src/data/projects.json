@@ -2,7 +2,7 @@
   {
     "title": "Heaven Mart",
     "imageSrc": "/projects/havenMart.png",
-    "description": "This is a project is made using react, reactstrap, firebase",
+    "description": "Crafted a responsive online clothing store website using HTML, SCSS, and React, showcasing an eye-catching design. Focused on user-centric design principles to enhance the overall shopping experience.",
     "skills": ["JavaScript", "scss"],
     "demo": "https://haven-mart.netlify.app/home",
     "source": "https://github.com/GaurabGurung/Haven-Mart"
@@ -10,7 +10,7 @@
   {
     "title": "Fashion Elegance Clothing Store",
     "imageSrc": "/projects/clothing-store.png",
-    "description": "This is a project made to learn the latest ",
+    "description": "Designed and developed a responsive online clothing store website using HTML, SCSS, and React, to showcase skills. Employed Firebase for efficient database management, ensuring seamless data handling.",
     "skills": ["React", "JavaScript", "Redux"],
     "demo": "https://fashion-elegance.netlify.app/",
     "source": "https://github.com/GaurabGurung/adding-TS-in-our-Clothing-app-which-uses-Redux-Stripe-and-netlify-functions"
@@ -18,7 +18,7 @@
   {
     "title": "Taste Hub",
     "imageSrc": "/projects/tastehub.png",
-    "description": "This is the front end of a food Website ",
+    "description": "This is a front end website template for a food Website",
     "skills": ["JavaScript", "scss"],
     "demo": "https://ourtastehub.netlify.app/",
     "source": "https://github.com/GaurabGurung/food-app"

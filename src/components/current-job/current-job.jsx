@@ -20,7 +20,7 @@ const CurrentJob = () => {
       {/* <div className={styles.historyDetails}> */}
       <h2 className={styles.heading}>
         My Current Job:
-        <span className={styles.text_highlight}> ICT Officer</span>
+        <span className={styles.text_highlight}> ICT Support Officer</span>
       </h2>
       <p className={styles.description}>
         My extensive background as an ICT HelpDesk Officer, has equipped me with

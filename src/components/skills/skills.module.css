@@ -67,7 +67,7 @@
 }
 .skillImageContainer {
   cursor: pointer;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.6s;
 
   img {
     @media screen and (max-width: 1100px) {
@@ -79,7 +79,7 @@
   }
 }
 .skillImageContainer:hover {
-  animation: rise 1s ease-in-out forwards;
+  transform: translateY(-0.6rem);
 }
 
 @keyframes rise {

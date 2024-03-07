@@ -39,11 +39,12 @@ export const Hero = () => {
           <h3 className={styles.title}>
             Hello, <span className={styles.textColor}> I'm</span>
             <br />
-            <span className={styles.myName}>Gaurab Gurung</span>
+            <span className={styles.myName}>Gaurab (Max) Gurung,</span> <br />
           </h3>
           <p className={styles.description}>
-            I am a front-end developer. I have done my masters in Computer
-            Science. Reach out if you'd like to learn more!
+            a passionate front-end developer, with a master's degree in Computer
+            Science, I merge code and creativity to build immersive digital
+            worlds.
           </p>
           <a
             href="/assets/resume/gaurab_resume.pdf"

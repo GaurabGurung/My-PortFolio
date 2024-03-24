@@ -8,6 +8,14 @@
     "source": "https://github.com/GaurabGurung/Haven-Mart"
   },
   {
+    "title": "MaxFlix",
+    "imageSrc": "/projects/maxflix.png",
+    "description": "Maxfix app project aims to replicate the core functionalities and user experience of the popular streaming platform Netflix using React.js. The project offers a user-friendly interface where users can browse a collection of movies and TV shows, watch trailers, and view detailed information about each title.",
+    "skills": ["JavaScript", "scss", "redux", "firebase"],
+    "demo": "https://maxflixshow.netlify.app/",
+    "source": "https://github.com/GaurabGurung/netlfix-clone"
+  },
+  {
     "title": "Fashion Elegance Clothing Store",
     "imageSrc": "/projects/clothing-store.png",
     "description": "Designed and developed a responsive online clothing store website using HTML, SCSS, and React, to showcase skills. Employed Firebase for efficient database management, ensuring seamless data handling.",

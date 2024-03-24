@@ -16,7 +16,7 @@
     "source": "https://github.com/GaurabGurung/netlfix-clone"
   },
   {
-    "title": "Fashion Elegance Clothing Store",
+    "title": "Fashion Elegance",
     "imageSrc": "/projects/clothing-store.png",
     "description": "Designed and developed a responsive online clothing store website using HTML, SCSS, and React, to showcase skills. Employed Firebase for efficient database management, ensuring seamless data handling.",
     "skills": ["React", "JavaScript", "Redux"],

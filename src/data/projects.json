@@ -19,7 +19,7 @@
   {
     "title": "MaxFlix (in progress)",
     "imageSrc": "/projects/maxflix.png",
-    "description": "Maxfix app project aims to replicate the core functionalities and user experience of the popular streaming platform Netflix using React.js. The project offers a user-friendly interface where users can browse a collection of movies and TV shows, watch trailers, and view detailed information about each title.",
+    "description": "Maxfix app project aims to replicate the core functionalities and user experience of the popular streaming platform Netflix using React.js. ",
     "skills": ["JavaScript", "scss", "redux", "firebase"],
     "demo": "https://maxflixshow.netlify.app/",
     "source": "https://github.com/GaurabGurung/netlfix-clone"

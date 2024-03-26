@@ -71,7 +71,7 @@ const Qualification = () => {
       <img className={styles.heroImg} src={heroImg} alt="hero_image" />
 
       <h2 className={styles.title}>
-        My <span className={styles.text_highlight}>Qualification</span>
+        My <span className={styles.text_highlight}>Qualifications</span>
       </h2>
       <div
         className={styles.sectionCotainer}

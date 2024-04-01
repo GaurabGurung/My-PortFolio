@@ -112,6 +112,12 @@
 .projects__button:hover {
   color: var(--color-dark);
 }
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
 
 @media screen and (max-width: 830px) {
   .container {

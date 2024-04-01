@@ -40,13 +40,23 @@ const Projects = () => {
                 <div className={styles.projects__modal}>
                   <h2 className={styles.project__title}>{project.title}</h2>
                   <span className={styles.subtitle}>{project.description}</span>
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    className={styles.projects__button}
-                  >
-                    View Demo <RiExternalLinkLine />
-                  </a>
+                  <div className={styles.links}>
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      className={styles.projects__button}
+                    >
+                      View Demo <RiExternalLinkLine />
+                    </a>
+                    <a
+                      href={project.source}
+                      target="_blank"
+                      className={styles.projects__button}
+                    >
+                      Source
+                      <RiExternalLinkLine />
+                    </a>
+                  </div>
                 </div>
               </article>
               <h1 className={styles.project_sub}>{project.title}</h1>

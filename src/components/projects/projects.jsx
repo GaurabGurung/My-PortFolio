@@ -46,7 +46,7 @@ const Projects = () => {
                       target="_blank"
                       className={styles.projects__button}
                     >
-                      View Demo <RiExternalLinkLine />
+                      Live Demo <RiExternalLinkLine />
                     </a>
                     <a
                       href={project.source}

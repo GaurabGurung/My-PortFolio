@@ -79,7 +79,23 @@
   position: absolute;
   z-index: 2; /* Change z-index */
   left: 5vw;
-  top: 20vh;
+  top: 35vh;
+}
+
+@media screen and (min-height: 1050px) {
+  .heroImg {
+    top: 30vh;
+  }
+}
+@media screen and (min-height: 1200px) {
+  .heroImg {
+    top: 25vh;
+  }
+}
+@media screen and (min-height: 1380px) {
+  .heroImg {
+    top: 20vh;
+  }
 }
 
 @media screen and (max-width: 1300px) {

@@ -5,7 +5,7 @@
   overflow: hidden;
   z-index: 0;
   background-color: var(--color-bg);
-  min-height: 900px;
+  min-height: 1000px;
   @media screen and (max-width: 380px) {
     height: 120%;
     padding-bottom: 100px;
@@ -16,10 +16,9 @@
   width: 170px;
   position: absolute;
   z-index: 66;
-  top: 12vw;
-  left: 6vw;
+  top: 14vw;
+  left: 9vw;
   cursor: pointer;
-  /* background-color: red; */
 }
 
 .sectionCotainer {
@@ -30,15 +29,15 @@
 }
 
 .section {
-  width: 55%;
+  width: 50%;
   padding-top: 2%;
   padding-right: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: start;
   position: absolute;
   z-index: 3;
-  /* background-color: white; */
 }
 
 .block {
@@ -46,9 +45,9 @@
   background: #008080;
   height: 100vh;
   width: 500vw;
-  z-index: 1; /* Change z-index */
+  z-index: 1;
   top: 1050px;
-  left: -200px;
+  left: -250px;
   transform: rotate(10deg);
 }
 
@@ -69,16 +68,18 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: start;
 }
 
 .heroImg {
   width: 30%;
+  max-width: 500px;
   cursor: pointer;
   margin: 25px 60px;
   position: absolute;
   z-index: 2; /* Change z-index */
   left: 5vw;
-  top: 25vh;
+  top: 20vh;
 }
 
 @media screen and (max-width: 1300px) {
@@ -98,28 +99,32 @@
 }
 .lights {
   position: absolute;
-  z-index: 5; /* Adjust z-index */
-  width: 35vw;
+  z-index: 5;
+  width: 40vw;
+  max-width: 800px;
   padding-left: 10%;
   top: 70px;
-  left: -50px;
+  left: -20px;
 }
-.hello {
-  position: absolute;
-  z-index: 1;
-  width: 25vw;
-  padding-left: 10%;
-  top: 250px;
-  left: -30px;
-}
+
 .twinkle {
   position: absolute;
   z-index: 1;
   width: 25vw;
   padding-left: 10%;
-  top: 25vw;
+  top: 40vw;
   left: -25px;
   z-index: 6;
+}
+.typing,
+.hello {
+  position: absolute;
+  z-index: 1;
+  width: 30vw;
+  max-width: 550px;
+  padding-left: 10%;
+  top: 250px;
+  left: -80px;
 }
 @media screen and (max-width: 1300px) {
   .container {
@@ -138,15 +143,9 @@
     justify-content: center;
     margin-right: 0;
     padding-right: 10px;
-    /* min-height: 120vh; */
   }
 }
-@media screen and (min-width: 2150px) {
-  .block {
-    top: 1400px;
-    left: -250px;
-  }
-}
+
 @media screen and (max-width: 1150px) {
   .block {
     top: 500px;
@@ -157,58 +156,81 @@
     left: -10px;
     top: 100px;
   }
-  .twinkle {
-    top: 400px;
-  }
   .switch {
     height: 90px;
     width: 150px;
     top: 15vw;
-    left: 7vw;
   }
 }
 @media screen and (min-width: 1670px) {
   .lights {
-    left: -10px;
-    top: 50px;
-  }
-  .twinkle {
-    top: 35vw;
+    left: 7vw;
+    top: 40px;
   }
   .switch {
-    top: 10vw;
-    left: 10vw;
+    top: 11vw;
+    left: 19vw;
   }
 }
-.typing {
-  position: absolute;
-  z-index: 1;
-  width: 30vw;
-  padding-left: 10%;
-  top: 200px;
-  left: -80px;
-}
+
 @media screen and (max-width: 1620px) {
-  .typing {
+  .typing,
+  .hello {
     left: -30px;
   }
 }
 
-@media screen and (max-width: 950px) {
-  .twinkle {
-    top: 45vw;
-  }
-}
 @media screen and (min-width: 1700px) {
   .switch {
     height: 180px;
     width: 300px;
-    top: 8vw;
-    left: 9vw;
+    top: 9vw;
+    left: 15vw;
+  }
+  .heroImg {
+    left: 12vw;
+  }
+  .typing,
+  .hello {
+    top: 300px;
+    left: 2vw;
+  }
+  .twinkle {
+    top: 600px;
+    left: 3vw;
   }
 }
 @media screen and (max-width: 452px) {
   .sectionCotainer {
     height: 110vh;
+  }
+}
+@media screen and (min-width: 2150px) {
+  .block {
+    top: 1400px;
+    left: -250px;
+  }
+  .heroImg {
+    left: 23vw;
+  }
+  .typing,
+  .hello {
+    top: 350px;
+    left: 12vw;
+  }
+  .twinkle {
+    left: 10vw;
+  }
+
+  .lights {
+    left: 15vw;
+  }
+  .switch {
+    left: 24vw;
+  }
+}
+@media screen and (min-width: 2680px) {
+  .switch {
+    top: 7vw;
   }
 }

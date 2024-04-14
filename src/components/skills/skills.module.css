@@ -15,6 +15,11 @@
   margin-bottom: auto;
   justify-content: center;
 }
+@media screen and (min-height: 1350px) {
+  .full {
+    min-height: 80vh;
+  }
+}
 .highlight {
   color: #a51200;
 }

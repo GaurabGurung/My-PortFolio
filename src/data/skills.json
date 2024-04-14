@@ -12,8 +12,21 @@
     "imageSrc": "/skills_icon/sass.png"
   },
   {
+    "title": "Bootstrap",
+    "imageSrc": "/skills_icon/Bootstrap.png"
+  },
+  {
+    "title": "Framer Motion",
+    "imageSrc": "/skills_icon/Framer.png"
+  },
+  {
     "title": "JavaScript",
     "imageSrc": "/skills_icon/JavaScript-logo.png"
+  },
+
+  {
+    "title": "TypeScript",
+    "imageSrc": "/skills_icon/typescript.png"
   },
 
   {
@@ -26,18 +39,18 @@
     "imageSrc": "/skills_icon/restAPI.png"
   },
   {
-    "title": "Firebase",
-    "imageSrc": "/skills_icon/firebase.png"
-  },
-
-  {
-    "title": "TypeScript",
-    "imageSrc": "/skills_icon/typescript.png"
-  },
-  {
     "title": "Redux",
     "imageSrc": "/skills_icon/redux.png"
   },
+  {
+    "title": "Firebase",
+    "imageSrc": "/skills_icon/firebase.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "/skills_icon/mongoDB.png"
+  },
+
   {
     "title": "Responsive Websites",
     "imageSrc": "/skills_icon/responsive.png"
@@ -53,5 +66,17 @@
   {
     "title": "Github",
     "imageSrc": "/skills_icon/github.png"
+  },
+  {
+    "title": "NodeJS",
+    "imageSrc": "/skills_icon/NodeJS.png"
+  },
+  {
+    "title": "NPM",
+    "imageSrc": "/skills_icon/npm.png"
+  },
+  {
+    "title": "Yarn",
+    "imageSrc": "/skills_icon/yarn.png"
   }
 ]

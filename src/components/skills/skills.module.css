@@ -48,7 +48,6 @@
   padding: 20px;
 
   justify-content: center;
-  /* margin-top: 50px; */
   padding-bottom: 50px;
   @media screen and (max-width: 610px) {
     gap: 10px;
@@ -63,7 +62,6 @@
 }
 .toolTitle {
   display: flex;
-  /* font-family: var(--font-roboto); */
   justify-content: center;
   width: 40px;
   @media screen and (max-width: 610px) {
@@ -94,9 +92,9 @@
 @keyframes rise {
   0%,
   100% {
-    transform: translateY(0); /* Start and end at no translation */
+    transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px); /* Peak at -5px */
+    transform: translateY(-10px);
   }
 }
